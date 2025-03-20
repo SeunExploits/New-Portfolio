@@ -2,6 +2,7 @@ import { useState } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from "emailjs-com";
 import { FaInstagram, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 export const Contact = () => {
   
@@ -17,8 +18,8 @@ export const Contact = () => {
       <h2 className="text-xl font-bold mb-2">Contact Me</h2>
       <p className="text-gray-600 mb-4">Feel free to reach out to me through any of the platforms below:</p>
       <div className="flex space-x-4">
-        <a href="https://instagram.com/seun_exploits" target="_blank" rel="noopener noreferrer" className="text-pink-500 text-2xl">
-          <FaInstagram />
+        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noopener noreferrer" className="text-white-500 text-2xl">
+          <MdEmail />
         </a>
         <a href="https://github.com/SeunExploits" target="_blank" rel="noopener noreferrer" className="text-gray-800 text-2xl">
           <FaGithub />

@@ -23,7 +23,7 @@ export const Contact = () => {
         <a href="https://github.com/SeunExploits" target="_blank" rel="noopener noreferrer" className="text-gray-800 text-2xl">
           <FaGithub />
         </a>
-        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="text-blue-600 text-2xl">
+        <a href="https://www.linkedin.com/in/oluwaseun-ajayi-sam/" target="_blank" rel="noopener noreferrer" className="text-blue-600 text-2xl">
           <FaLinkedin />
         </a>
         <a href="https://x.com/ExploitsSeun" target="_blank" rel="noopener noreferrer" className="text-blue-400 text-2xl">

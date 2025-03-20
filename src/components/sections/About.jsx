@@ -73,7 +73,7 @@ export const About = () => {
                   (2016-2021)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Blochchain technology...
+                  Relevant Coursework: Data Structures, Web Development, Blockchain technology...
                 </li>
               </ul>
             </div>
@@ -96,7 +96,7 @@ export const About = () => {
                     Intern at Team Defi Startups (2020-2021){" "}
                   </h4>
                   <p>
-                    Assisted in building front-end components and also explored the vast potential of blockchain technology
+                    Explored the vast potential of blockchain technology in today's world and also it impact in the future of technology.
                   </p>
                 </div>
               </div>

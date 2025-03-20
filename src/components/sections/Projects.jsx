@@ -36,7 +36,7 @@ export const Projects = () => {
                   href="#"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
-                  <a href="https://real-estate-seven-gold.vercel.app/">View Project →</a>
+                  <a href="https://real-estate-seven-gold.vercel.app/">Ongoing Project →</a>
                 </a>
               </div>
             </div>
@@ -74,7 +74,7 @@ export const Projects = () => {
                   href="#"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
-                <a href="https://e-commerce-three-mu-39.vercel.app/">View Project →</a>
+                <a href="https://e-commerce-three-mu-39.vercel.app/">Ongoing Project →</a>
                 </a>
               </div>
             </div>

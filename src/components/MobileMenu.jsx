@@ -19,30 +19,31 @@ export const MobileMenu = ({ menuOpen, setMenuOpen, isDarkMode, setIsDarkMode })
 
   return (
     <>
-      {/* Animated Backdrop */}
+      {/* Enhanced Animated Backdrop */}
       <div
-        className={`fixed inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 backdrop-blur-md z-20 
-                   transition-all duration-500 ease-in-out
-                   ${menuOpen ? "opacity-100" : "opacity-0 pointer-events-none"}`}
+        className={`fixed inset-0 bg-gradient-to-br from-primary/30 to-secondary/30 backdrop-blur-lg z-20 
+                   transition-all duration-700 ease-in-out transform
+                   ${menuOpen ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-full"}`}
         onClick={() => setMenuOpen(false)}
       >
-        <div className={`absolute inset-0 bg-black/30 transition-opacity duration-500
+        <div className={`absolute inset-0 bg-black/40 transition-opacity duration-700
                        ${menuOpen ? "opacity-100" : "opacity-0"}`} />
       </div>
 
-      {/* Menu Container */}
+      {/* Enhanced Menu Container */}
       <div
-        className={`fixed top-0 left-0 w-72 h-screen bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl shadow-2xl z-30
-                   transform transition-all duration-500 ease-in-out
+        className={`fixed top-0 left-0 w-80 h-screen bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl shadow-2xl z-30
+                   transform transition-all duration-700 ease-in-out
                    ${menuOpen ? "translate-x-0" : "-translate-x-full"}`}
       >
-        {/* Decorative Elements */}
+        {/* Enhanced Decorative Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute -top-40 -right-40 w-80 h-80 bg-primary/10 rounded-full blur-3xl animate-pulse" />
-          <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-secondary/10 rounded-full blur-3xl animate-pulse delay-1000" />
+          <div className="absolute -top-40 -right-40 w-80 h-80 bg-primary/20 rounded-full blur-3xl animate-pulse" />
+          <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-secondary/20 rounded-full blur-3xl animate-pulse delay-1000" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-primary/10 to-secondary/10 rounded-full blur-3xl animate-float" />
         </div>
 
-        {/* Header */}
+        {/* Enhanced Header */}
         <div className="relative flex items-center justify-between p-6 border-b border-gray-200/50 dark:border-gray-700/50">
           <a 
             href="#home" 
@@ -64,7 +65,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen, isDarkMode, setIsDarkMode })
           </button>
         </div>
 
-        {/* Menu Items */}
+        {/* Enhanced Menu Items */}
         <nav className="relative p-6">
           <div className="flex flex-col space-y-6">
             {[
@@ -78,28 +79,28 @@ export const MobileMenu = ({ menuOpen, setMenuOpen, isDarkMode, setIsDarkMode })
                 href={item.href}
                 onClick={() => setMenuOpen(false)}
                 className={`group relative text-xl font-medium text-black dark:text-white hover:text-primary 
-                         transition-all duration-300 transform hover:translate-x-2
+                         transition-all duration-500 transform hover:translate-x-2
                          ${menuOpen ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-4"}
-                         transition-all duration-300 delay-${item.delay}`}
+                         transition-all duration-500 delay-${item.delay}`}
               >
                 <span className="relative z-10">{item.label}</span>
                 <span className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 
                                rounded-lg transform scale-x-0 group-hover:scale-x-100 
-                               transition-transform duration-300 origin-left" />
+                               transition-transform duration-500 origin-left" />
               </a>
             ))}
           </div>
         </nav>
 
-        {/* Theme Toggle */}
+        {/* Enhanced Theme Toggle */}
         <div className="relative px-6 py-4">
           <button
             onClick={() => setIsDarkMode(!isDarkMode)}
             className={`w-full p-4 rounded-xl bg-gradient-to-r from-primary/10 to-secondary/10 
                      hover:from-primary/20 hover:to-secondary/20 backdrop-blur-sm
-                     transition-all duration-300 transform hover:scale-105
+                     transition-all duration-500 transform hover:scale-105
                      ${menuOpen ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-4"}
-                     transition-all duration-300 delay-500`}
+                     transition-all duration-500 delay-500`}
             aria-label="Toggle theme"
           >
             <div className="flex items-center justify-center space-x-3">
@@ -122,7 +123,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen, isDarkMode, setIsDarkMode })
           </button>
         </div>
 
-        {/* Footer */}
+        {/* Enhanced Footer */}
         <div className="absolute bottom-0 left-0 right-0 p-6 text-center text-sm text-black dark:text-white">
           <p>© 2024 Ajayi Oluwaseun</p>
         </div>

@@ -16,7 +16,7 @@ export const Contact = () => {
           </h2>
           
           <div className="p-8 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-            <p className="text-gray-300 mb-8 text-center text-lg">
+            <p className="text-dark-300 mb-8 text-center text-lg">
               Feel free to reach out to me through any of the platforms below:
             </p>
             
@@ -27,7 +27,7 @@ export const Contact = () => {
                          transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg"
               >
                 <MdEmail className="text-2xl text-primary" />
-                <span className="text-gray-200 font-medium">Email Me</span>
+                <span className="text-dark-200 font-medium">Email Me</span>
               </a>
               
               <a 
@@ -37,8 +37,8 @@ export const Contact = () => {
                 className="flex items-center justify-center space-x-3 p-4 rounded-lg bg-gray-800/50 hover:bg-gray-800/70 
                          transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg"
               >
-                <FaGithub className="text-2xl text-gray-200" />
-                <span className="text-gray-200 font-medium">GitHub</span>
+                <FaGithub className="text-2xl text-dark-200" />
+                <span className="text-dark-200 font-medium">GitHub</span>
               </a>
               
               <a 

@@ -15,7 +15,7 @@ export const Projects = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2"> Real Estate Web App</h3>
-              <p className="text-gray-400 mb-4">
+              <p className="text-dark-400 mb-4">
                 A Responsive Real Estate Web App that Established an online presence for a Startup (Exploits Real estate), driving more sales.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
@@ -49,7 +49,7 @@ export const Projects = () => {
             "
             >
               <h3 className="text-xl font-bold mb-2">E-commerce Web App</h3>
-              <p className="text-gray-400 mb-4">
+              <p className="text-dark-400 mb-4">
               Full-stack e-commerce with modern UI, secure payment
               integration, and customizable product inventory.
               </p>
@@ -88,7 +88,7 @@ export const Projects = () => {
             "
             >
               <h3 className="text-xl font-bold mb-2">A Portfolio Web App</h3>
-              <p className="text-gray-400 mb-4">
+              <p className="text-dark-400 mb-4">
                 A modern Responsive, Fully functional Portfolio design to showcase skills and experiences, establish online presence and land a dream job.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
@@ -128,7 +128,7 @@ export const Projects = () => {
             "
             >
               <h3 className="text-xl font-bold mb-2">UniMarket</h3>
-              <p className="text-gray-400 mb-4">
+              <p className="text-dark-400 mb-4">
                 Project in view.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">

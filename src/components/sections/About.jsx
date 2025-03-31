@@ -46,7 +46,7 @@ export const About = () => {
           </h2>
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-            <p className="text-gray-300 mb-8 text-lg leading-relaxed">
+            <p className="text-black dark:text-blue-500 mb-8 text-lg leading-relaxed">
               I'm a passionate Full Stack Developer with a strong foundation in both frontend and backend technologies. 
               With a keen eye for detail and a commitment to writing clean, maintainable code, I specialize in building 
               scalable web applications that deliver exceptional user experiences.
@@ -54,12 +54,12 @@ export const About = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               <div className="rounded-xl p-6 bg-primary/5 hover:bg-primary/10 transition-all">
-                <h3 className="text-xl font-bold mb-4 text-primary">Frontend</h3>
+                <h3 className="text-xl font-bold mb-4 text-blue-500 dark:text-primary">Frontend</h3>
                 <div className="flex flex-wrap gap-2">
                   {frontendSkills.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-primary/10 text-primary py-1 px-3 rounded-full text-sm hover:bg-primary/20 
+                      className="bg-primary/10 text-blue-500 dark:text-primary py-1 px-3 rounded-full text-sm hover:bg-primary/20 
                                hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
                     >
                       {tech}
@@ -69,12 +69,12 @@ export const About = () => {
               </div>
 
               <div className="rounded-xl p-6 bg-secondary/5 hover:bg-secondary/10 transition-all">
-                <h3 className="text-xl font-bold mb-4 text-secondary">Backend</h3>
+                <h3 className="text-xl font-bold mb-4 text-blue-500 dark:text-secondary">Backend</h3>
                 <div className="flex flex-wrap gap-2">
                   {backendSkills.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-secondary/10 text-secondary py-1 px-3 rounded-full text-sm hover:bg-secondary/20 
+                      className="bg-secondary/10 text-blue-500 dark:text-secondary py-1 px-3 rounded-full text-sm hover:bg-secondary/20 
                                hover:shadow-[0_2px_8px_rgba(16,185,129,0.2)] transition"
                     >
                       {tech}
@@ -84,12 +84,12 @@ export const About = () => {
               </div>
 
               <div className="rounded-xl p-6 bg-blue-500/5 hover:bg-blue-500/10 transition-all">
-                <h3 className="text-xl font-bold mb-4 text-blue-400">Other Skills</h3>
+                <h3 className="text-xl font-bold mb-4 text-black dark:text-blue-500">Other Skills</h3>
                 <div className="flex flex-wrap gap-2">
                   {otherSkills.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-blue-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                      className="bg-blue-500/10 text-black dark:text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
                                hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
                     >
                       {tech}
@@ -101,12 +101,12 @@ export const About = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4 text-primary">Education</h3>
+                <h3 className="text-xl font-bold mb-4 text-blue-500 dark:text-primary">Education</h3>
                 <div className="space-y-4">
                   <div>
-                    <h4 className="font-semibold text-gray-200">B.S. in Hydrology</h4>
-                    <p className="text-gray-400">Federal University Abeokuta (2016-2021)</p>
-                    <ul className="list-disc list-inside text-gray-400 mt-2 space-y-1">
+                    <h4 className="font-semibold text-blue-500 dark:text-blue-500">B.S. in Hydrology</h4>
+                    <p className="text-blue-500 dark:text-500">Federal University Abeokuta (2016-2021)</p>
+                    <ul className="list-disc list-inside text-black dark:text-blue-500 mt-2 space-y-1">
                       <li>Completed advanced coursework in Data Structures and Web Development</li>
                       <li>Led the University's Tech Club and organized multiple hackathons</li>
                       <li>Created a student portal system for better campus communication</li>
@@ -116,10 +116,10 @@ export const About = () => {
               </div>
 
               <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4 text-primary">Technical Achievements</h3>
+                <h3 className="text-xl font-bold mb-4 text-blue-500 dark:text-primary">Technical Achievements</h3>
                 <div className="space-y-6">
                   <div>
-                    <ul className="list-disc list-inside text-gray-400 mt-2 space-y-1">
+                    <ul className="list-disc list-inside text-black dark:text-blue-500 mt-2 space-y-1">
                       <li>Built and deployed multiple full-stack applications</li>
                       <li>Optimized application performance and reduced load times</li>
                       <li>Implemented complex features using modern web technologies</li>

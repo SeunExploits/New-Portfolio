@@ -8,12 +8,12 @@ export const Projects = () => {
     >
       <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-green-500 to-green-400 bg-clip-text text-transparent text-center">
             {" "}
             Featured Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2"> Real Estate Web App</h3>
               <p className="text-dark-400 mb-4">
                 A Responsive Real Estate Web App that Established an online presence for a Startup (Exploits Real estate), driving more sales.
@@ -22,7 +22,7 @@ export const Projects = () => {
                 {["React", "Tailwindcss", "Web3-forms", "Framer-motion"].map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                    className="bg-green-500/10 text-green-500 py-1 px-3 rounded-full text-sm hover:bg-green-500/20 
                                     hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
                     "
                   >
@@ -34,7 +34,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="#"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  className="text-green-400 hover:text-green-300 transition-colors my-4"
                 >
                   <a href="https://real-estate-seven-gold.vercel.app/">Ongoing Project →</a>
                 </a>
@@ -43,7 +43,7 @@ export const Projects = () => {
             <div
               className="
               glass p-6 rounded-xl border border-white/10 
-              hover:-translate-y-1 hover:border-blue-500/30
+              hover:-translate-y-1 hover:border-green-500/30
               hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
               transition-all
             "
@@ -58,7 +58,7 @@ export const Projects = () => {
                   <span
                     key={key}
                     className="
-                      bg-blue-500/10 text-blue-500 py-1 px-3 
+                      bg-blue-500/10 text-green-500 py-1 px-3 
                       rounded-full text-sm
                       transition
                       hover:bg-blue-500/20 hover:-translate-y-0.5
@@ -72,7 +72,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="#"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  className="text-green-400 hover:text-green-300 transition-colors my-4"
                 >
                 <a href="https://e-commerce-three-mu-39.vercel.app/">Ongoing Project →</a>
                 </a>
@@ -82,7 +82,7 @@ export const Projects = () => {
             <div
               className="
               glass p-6 rounded-xl border border-white/10 
-              hover:-translate-y-1 hover:border-blue-500/30
+              hover:-translate-y-1 hover:border-green-500/30
               hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
               transition-all
             "
@@ -97,10 +97,10 @@ export const Projects = () => {
                     <span
                       key={tech}
                       className="
-                      bg-blue-500/10 text-blue-500 py-1 px-3 
+                      bg-green-500/10 text-green-500 py-1 px-3 
                       rounded-full text-sm
                       transition
-                      hover:bg-blue-500/20 hover:-translate-y-0.5
+                      hover:bg-green-500/20 hover:-translate-y-0.5
                       hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
                     "
                     >
@@ -112,7 +112,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="#"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  className="text-green-400 hover:text-green-300 transition-colors my-4"
                 >
                 <a href="https://my-portfolio-website-new-orcin.vercel.app/">View Project →</a>
                 </a>
@@ -122,7 +122,7 @@ export const Projects = () => {
             <div
               className="
               glass p-6 rounded-xl border border-white/10 
-              hover:-translate-y-1 hover:border-blue-500/30
+              hover:-translate-y-1 hover:border-green-500/30
               hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
               transition-all
             "
@@ -136,10 +136,10 @@ export const Projects = () => {
                   <span
                     key={key}
                     className="
-                      bg-blue-500/10 text-blue-500 py-1 px-3 
+                      bg-green-500/10 text-green-500 py-1 px-3 
                       rounded-full text-sm
                       transition
-                      hover:bg-blue-500/20 hover:-translate-y-0.5
+                      hover:bg-green-500/20 hover:-translate-y-0.5
                       hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
                     "
                   >
@@ -150,7 +150,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center ">
                 <a
                   href="#"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  className="text-green-400 hover:text-green-300 transition-colors my-4"
                 >
                     View Project →
                 </a>

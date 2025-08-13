@@ -11,7 +11,7 @@ export const Contact = () => {
     >
       <RevealOnScroll>
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-green-500 to-cyan-400 bg-clip-text text-transparent text-center">
             Get In Touch
           </h2>
           
@@ -45,7 +45,7 @@ export const Contact = () => {
                 href="https://www.linkedin.com/in/oluwaseun-ajayi-sam/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="flex items-center justify-center space-x-3 p-4 rounded-lg bg-blue-600/50 hover:bg-blue-600/70 
+                className="flex items-center justify-center space-x-3 p-4 rounded-lg bg-green-600/50 hover:bg-blue-600/70 
                          transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg"
               >
                 <FaLinkedin className="text-2xl text-white" />
@@ -56,7 +56,7 @@ export const Contact = () => {
                 href="https://x.com/ExploitsSeun" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="flex items-center justify-center space-x-3 p-4 rounded-lg bg-blue-400/50 hover:bg-blue-400/70 
+                className="flex items-center justify-center space-x-3 p-4 rounded-lg bg-green-400/50 hover:bg-blue-400/70 
                          transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg"
               >
                 <FaTwitter className="text-2xl text-white" />

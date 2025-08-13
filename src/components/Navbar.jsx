@@ -13,7 +13,7 @@ export const Navbar = ({ menuOpen, setMenuOpen, isDarkMode, setIsDarkMode }) => 
             href="#home" 
             className="font-mono text-lg sm:text-xl font-bold text-primary hover:text-secondary transition-all duration-500 animate-fade-up hover:scale-105 transform"
           >
-            A<span className="text-blue-500">.O</span>
+            A<span className="text-green-500">.O</span>
           </a>
 
           <button

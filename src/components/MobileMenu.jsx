@@ -125,7 +125,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen, isDarkMode, setIsDarkMode })
 
         {/* Enhanced Footer */}
         <div className="absolute bottom-0 left-0 right-0 p-6 text-center text-sm text-black dark:text-white">
-          <p>© 2024 Ajayi Oluwaseun</p>
+          <p>© 2025 Ajayi Oluwaseun</p>
         </div>
       </div>
     </>

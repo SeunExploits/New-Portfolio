@@ -45,7 +45,7 @@ export const About = () => {
             About Me
           </h2>
 
-          <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+          <div className="rounded-xl p-8 border-green/20 border hover:-translate-y-1 transition-all">
             <p className="text-black dark:text-green-500 mb-8 text-lg leading-relaxed">
               I'm a passionate Full Stack Developer with a strong foundation in both frontend and backend technologies. 
               With a keen eye for detail and a commitment to writing clean, maintainable code, I specialize in building 
@@ -100,7 +100,7 @@ export const About = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <div className="p-6 rounded-xl border-green/20 border hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4 text-green-500 dark:text-primary">Education</h3>
                 <div className="space-y-4">
                   <div>
@@ -115,7 +115,7 @@ export const About = () => {
                 </div>
               </div>
 
-              <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <div className="p-6 rounded-xl border-green/20 border hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4 text-green-500 dark:text-primary">Technical Achievements</h3>
                 <div className="space-y-6">
                   <div>

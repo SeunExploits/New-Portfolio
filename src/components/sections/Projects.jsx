@@ -42,7 +42,7 @@ export const Projects = () => {
             </div>
             <div
               className="
-              glass p-6 rounded-xl border border-white/10 
+              glass p-6 rounded-xl border border-green/20 
               hover:-translate-y-1 hover:border-green-500/30
               hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
               transition-all
@@ -81,7 +81,7 @@ export const Projects = () => {
 
             <div
               className="
-              glass p-6 rounded-xl border border-white/10 
+              glass p-6 rounded-xl border border-green/20 
               hover:-translate-y-1 hover:border-green-500/30
               hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
               transition-all
@@ -121,7 +121,7 @@ export const Projects = () => {
 
             <div
               className="
-              glass p-6 rounded-xl border border-white/10 
+              glass p-6 rounded-xl border border-green/20 
               hover:-translate-y-1 hover:border-green-500/30
               hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
               transition-all
